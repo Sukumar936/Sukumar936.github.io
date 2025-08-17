@@ -1,78 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Sukumar</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 10px 20px;
-            text-align: center;
-        }
-        nav {
-            margin: 20px 0;
-            text-align: center;
-        }
-        nav a {
-            margin: 0 15px;
-            text-decoration: none;
-            color: #333;
-            font-weight: bold;
-        }
-        section {
-            padding: 20px;
-            max-width: 800px;
-            margin: auto;
-            background: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        footer {
-            text-align: center;
-            padding: 10px;
-            background-color: #333;
-            color: #fff;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sukumar | Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <h1>Sukumar's Portfolio</h1>
-    </header>
+  <!-- Navbar -->
+  <header>
     <nav>
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
+      <h1 class="logo">Sukumar</h1>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     </nav>
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Hello! I am Sukumar, a passionate developer with experience in building web applications and solving complex problems.</p>
-    </section>
-    <section id="projects">
-        <h2>Projects</h2>
-        <ul>
-            <li>Project 1 - Description</li>
-            <li>Project 2 - Description</li>
-            <li>Project 3 - Description</li>
-        </ul>
-    </section>
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: sukumar@example.com</p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/sukumar" target="_blank">linkedin.com/in/sukumar</a></p>
-    </section>
-    <footer>
-        <p>&copy; 2023 Sukumar. All rights reserved.</p>
-    </footer>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <img src="images/profile.jpg" alt="Sukumar" class="profile-img">
+    <h2>Hello, I'm <span>Sukumar</span></h2>
+    <p>A passionate developer showcasing my skills & projects 🚀</p>
+    <a href="#projects" class="btn">View Projects</a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+      I am a tech enthusiast with skills in web development, automation, and problem-solving.
+      I love building creative solutions with HTML, CSS, JS, and Python.
+    </p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <img src="images/project1.png" alt="Project 1">
+        <h3>Price Tracker</h3>
+        <p>A web scraping tool to compare product prices from Amazon & Flipkart.</p>
+      </div>
+      <div class="project-card">
+        <img src="images/project2.png" alt="Project 2">
+        <h3>Portfolio Website</h3>
+        <p>Personal website to showcase my skills & projects on GitHub Pages.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:msukumar962k@email.com">msukumar962k@email.com</a></p>
+    <p>GitHub: <a href="https://github.com/Sukumar936" target="_blank">github.com/Sukumar936</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Sukumar | All rights reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
 </body>
 </html>
